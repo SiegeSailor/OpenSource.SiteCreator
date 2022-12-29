@@ -1,7 +1,7 @@
 {
-  "name": "profile",
+  "name": "site-creator",
   "version": "1.0.0",
-  "description": "Career resume and personal notes.",
+  "description": "A site creator powered with static content generation and server side rendering.",
   "scripts": {
     "predev": "ts-node prepare.ts",
     "dev": "next dev",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SiegeSailor/Profile.git"
+    "url": "git+https://github.com/SiegeSailor/SiteCreator.git"
   },
   "keywords": [
     "personal"
@@ -22,11 +22,11 @@
   "author": "SiegeSailor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SiegeSailor/Profile/issues"
+    "url": "https://github.com/SiegeSailor/SiteCreator/issues"
   },
-  "homepage": "https://github.com/SiegeSailor/Profile#readme",
+  "homepage": "https://github.com/SiegeSailor/SiteCreator#readme",
   "dependencies": {
-    "@fontsource/ubuntu": "^4.5.11",
+    "@fontsource/ubuntu": "4.5.11",
     "@nextcss/reset": "0.2.2-beta",
     "github-markdown-css": "5.1.0",
     "katex": "0.16.2",
